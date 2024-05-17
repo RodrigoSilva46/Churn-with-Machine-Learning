@@ -54,3 +54,59 @@ Foram testados dois algoritmos de classificação, Regressão Logística e Rando
 
 Existem ainda muitas outras técnicas e algoritmos que poderiam ser testados para tentar melhorar ainda mais a acurácia na predição de churn, como redes neurais, Support Vector Machines, entre outros. Fica o desafio para trabalhos futuros.
 
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+The project's objective is to predict whether a customer will cancel the service (churn) or not, based on the available variables. The main variables are:
+
+Numeric:
+
+► Tenuring: Number of months the customer has been in the database
+
+► MonthlyCharges: Amount consumed by the customer monthly
+
+► TotalCharges: Total amount consumed by the customer
+
+Categorical:
+
+► Customer ID
+
+► Gender (Male, Female)
+
+► Senior Citizen (Yes, No)
+
+► Married (Yes, No)
+
+► Dependents (Yes, No)
+
+► Phone Service (Yes, No)
+
+► Multiple Lines (Yes, No)
+
+► Internet Service Type
+
+► Online Security (Yes, No)
+
+► Online Backup (Yes, No)
+
+► Device Protection (Yes, No)
+
+► Tech Support (Yes, No)
+
+► Streaming TV (Yes, No)
+
+► Streaming Movies (Yes, No)
+
+► Contract (Monthly, Annual)
+
+► Paperless Billing (Yes, No)
+
+► Electronic Payment (Yes, No)
+
+► Payment Method (Credit Card, Debit, Bank Transfer, Check)
+
+In this project, several important steps of a Data Science project were applied, such as exploratory analysis, data preparation, model training, hyperparameter optimization, and calculation of performance metrics.
+
+Two classification algorithms were tested, Logistic Regression and Random Forest. Random Forest had better performance after optimization.
+
+There are still many other techniques and algorithms that could be tested to further improve churn prediction accuracy, such as neural networks, Support Vector Machines, among others. This remains a challenge for future work.
+
